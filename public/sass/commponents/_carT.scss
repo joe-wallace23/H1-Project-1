@@ -1,0 +1,94 @@
+.carT{
+    margin-top: 2rem;
+  &__small img{
+      width: 100%;
+      height: 13rem;
+
+      @include respond(tab-port){
+        height: 23rem;
+      }
+  }
+  &__look{
+      margin-top: 10rem;
+  }
+  &__small{
+    border-top: .2rem solid #000;
+    padding-bottom: 2rem;
+}
+&__sideList{
+    margin-top: 2rem;
+    list-style: none;
+}
+&__sideItem{
+    display: inline-block;
+}
+&__sideItem:not(:last-child){
+    margin-right: 1rem;
+}
+&__iconBm{
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: #fff;
+}
+&__sideLinf{
+    background-color: #4267B2;
+    padding: 1.8rem 1.5rem
+}
+&__sideLint{
+    background-color: #00acee;
+    padding: 1.8rem 1.5rem
+}
+&__sideLini{
+    background-color: #e1306c;
+    padding: 1.8rem 1.5rem
+}
+ &__contactBg{
+     
+     background-image: url(/images/footer-bg-image.jpg);
+     padding: 2rem;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+ }
+
+}
+.carousel-item img{
+    width: 100%;
+    height: 30rem;
+
+    @include respond(tab-port){
+        height: 20rem;
+    }
+}
+.carousel{
+    height: 30rem;
+}
+.carousel-indicators li{
+    background-color: $blm-main-color;
+    position: relative;
+    @include respond(tab-port){
+        top: -12rem;
+    }
+}
+
+.carT__contactBg .form-group input[type="text"]{
+ outline: 0;
+ box-shadow: none !important;
+ border: .1rem solid transparent;
+}
+
+.carT__contactBg .form-group .form-control{
+   height: 3rem;
+}
+
+.carT{
+    &__sideImages img{
+        width: 100%;
+        height: 8rem;
+
+        @include respond(tab-port){
+            height: 17rem;
+        }
+    }
+}

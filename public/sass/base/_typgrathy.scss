@@ -1,0 +1,149 @@
+.carT{
+    &__content h5.slid{
+        font-size: 2rem;
+        color: #000;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+    &__content p.para{
+        font-size: 1.4rem;
+        color: $blm-text-color;
+    }
+    &__content p.main{
+        font-size: 1.4rem;
+        color:$blm-text-color;
+        padding-bottom: 2rem;
+      
+    }
+    &__content h2.text{
+        font-size: 1.8rem;
+        color: #000;
+        padding-top: 1.2rem;
+    
+    }
+    &__content h3.sub{
+        font-size: 1.2rem;
+        color: #566573;
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+}
+.carT{
+    &__sidebar h2.take{
+        font-size: 1.8rem;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__sidebar p.color{
+        font-size: 1.2rem;
+        color:$blm-text-color;
+        padding-bottom: 2rem;
+    }
+    &__contactBg h2.action{
+        font-size: 1.8rem;
+        color: #fff;
+    }
+    &__contactBg p.you{
+        font-size: 1.3rem;
+        color: #fff;
+    }
+    &__sidebar h2.donate{
+        font-size: 1.8rem;
+        color: #000;
+    }
+    &__sidebar p.king{
+        font-size: 1.2rem;
+        color:$blm-text-color;
+    }
+    &__sidebar h2.bunny{
+        font-size: 1.3rem;
+        color: #000;
+    }
+    &__sidebar p.sleeve{
+        font-size: 1rem;
+        color:$blm-text-color;
+    }
+}
+
+.about{
+    &__content h2.header{
+        font-size: 2.5rem;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__content p.mainP{
+        font-size: 1.4rem;
+        color: $blm-text-color;
+
+    }
+    &__listA{
+        list-style: none;
+    }
+    &__itemA:not(:last-child){
+        margin-bottom: 1.2rem;
+    }
+    &__linkA{
+        font-size: 1.2rem;
+        color: $blm-text-color;
+        &:hover{
+            color: $blm-text-color;
+            text-decoration: none;
+        }
+    }
+    &__contentS h3.like{
+        font-size: 1.3rem;
+        color: $blm-text-color;
+        text-transform: uppercase;
+        margin-bottom: .1rem !important;
+    }
+    &__content h2.share{
+        font-size: 2rem;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__content h3.free{
+        font-size: 1.7rem;
+        color: #000;
+        margin: 1rem 0 .5rem 0;
+    }
+    &__content h4.time{
+        font-size: 1.6rem;
+        color: #000;
+
+    }
+}
+
+.news{
+    &__content h1.title{
+        font-size: 2.5rem;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+    &__content h3.sub{
+        font-size: 1.8rem;
+        color: #000;
+    }
+    &__content h4.date{
+        font-size: 1.2rem;
+        color: #566573;
+        margin-bottom: 1rem;
+    }
+    &__content p.newP{
+        font-size: 1.4rem;
+        color: $blm-text-color;
+    }
+}
+
+.connect{
+   &__content h1.title{
+       font-size: 2.5rem;
+       color: #000;
+       margin-bottom: 1rem;
+   }
+   &__content p.para{
+    font-size: 1.2rem;
+    color: #000;
+   
+}
+}

@@ -1,0 +1,28 @@
+.about{
+    margin-top: 2rem;
+    &__contentS{
+        margin-top: 8rem;
+    }
+    &__listS{
+        margin-top: 3rem;
+        list-style: none;
+    }
+    &__itemS{
+        display: inline-block;
+
+    }
+    &__itemS:not(:last-child){
+        margin-right: 1rem;
+    }
+    &__linkS{
+        background-color: $blm-main-color;
+        padding: 2.5rem 1.5rem;
+        border-radius: 5rem;
+    }
+    &__icon{
+        width: 2.7rem;
+        height: 2.7rem;
+        fill: #000;
+    }
+
+}

@@ -1,0 +1,62 @@
+.navbar{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.59)), url(/images/blm-navbar-bg-image-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-brand img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    &-top{
+        list-style: none;
+    }
+    
+    &-one{
+        display: inline-block;
+    }
+    &-one:not(:last-child){
+        margin-right: 1rem;
+    }
+    &__icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: $blm-main-color;
+        margin-top: 1rem;
+    }
+
+   
+}
+.nav{
+    &-link{
+        font-size: 1rem;
+        color: #fff !important;
+        text-transform: uppercase;
+        padding-right: 1.3rem !important;
+    }
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+.toggler-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}

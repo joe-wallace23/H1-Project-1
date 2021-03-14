@@ -1,0 +1,29 @@
+.banner{
+    background-color: $blm-main-color;
+    padding-bottom: .1rem;
+    &__list{
+        list-style: none;
+        padding-top: .7rem;
+    }
+    &__item{
+        display: inline-block;
+    }
+    &__item:not(:last-child){
+        margin-right: 2rem;
+    }
+    &__link{
+        font-size: 2rem;
+        color: #000;
+        letter-spacing: .1rem;
+        text-transform: none;
+        text-transform: uppercase;
+        
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+        @include respond(tab-port){
+            font-size: 1.5rem;
+        }
+    }
+}

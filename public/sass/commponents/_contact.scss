@@ -1,0 +1,24 @@
+.connect{
+    margin-top: 3rem;
+}
+.connect .contact-form .form-group label{
+    font-size: 1.1rem;
+    color: #000;
+}
+.connect .contact-form .form-group  .time{
+    height: 3rem;
+}
+.connect .contact-form .form-group  .form-control[type="text"], .form-control[type="email"], .form-control[type="message"]{
+    outline: 0;
+    box-shadow: none !important;
+   
+}
+.connect .contact-form .form-group  .form-control:focus{
+  border: .2rem solid  #2471a3 ;
+   
+}
+
+.connect .contact-form .form-group  textarea.form-control{
+    height: 8rem !important;
+     
+  }
